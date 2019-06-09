@@ -1,0 +1,461 @@
+<resources>
+    <string name="app_name" >محول الصوت الى نصوص</string>
+    <string name="enter" >دخول</string>
+    <string name="choose_lang" >الإعدادات</string>
+    <string name="continues" >استمرار</string>
+    <string name="font_test_ar" >بسم الله الرحمن الرحيم</string>
+    <string name="font_test_en" >In the name of God</string>
+    <string name="spinner_lang">اختيار اللغة الأساسية</string>
+    <string name="spinner_lang_eng">Primary language</string>
+    <string name="spinner_lang_2">اختيار اللغة الثانوية</string>
+    <string name="spinner_lang_eng_2">Secondary language</string>
+    <string name="spinner_font">اختيار الخط</string>
+    <string name="spinner_font_eng">Font</string>
+    <string name="set_file_name_hint">ادخل اسم الملف ..</string>
+    <string name="empty_file_name">رجاء ادخل اسم الملف !</string>
+    <string name="not_supported">لغة غير مدعومة !</string>
+    <string name="reserved_words_title_text">النصوص المحجوزة</string>
+    <string name="counter_text">عدد الملفات :</string>
+    <string name="reserved_words_title">النصوص المحجوزة</string>
+    <string name="item_edited"><![CDATA[تم التعديل]]></string>
+    <string name="item_not_edited"><![CDATA[لم يتم التعديل، لا يوجد حرف او نص مشابه !]]></string>
+    <string name="exist_files_title_text">الملفات المحفوظة</string>
+    <string name="item_added"><![CDATA[تم إضافة عنصر جديد]]></string>
+    <string name="item_deleted"><![CDATA[تم مسح العنصر]]></string>
+    <string name="saved">تم الحفظ !</string>
+    <string name="copied">تم النسخ</string>
+    <string name="save_file">حفظ</string>
+    <string name="replace_str">استبدال</string>
+    <string name="from">من :</string>
+    <string name="to">الى :</string>
+    <string name="from_desc">ادخل الحرف او النص الذى تريد استبداله</string>
+    <string name="to_desc">ادخل الحرف او النص البديل</string>
+    <string name="set_file_name_desc">سيتم حفظ النص فى ملف جديد</string>
+    <string name="initialization_failed">فشلت التهيئة !</string>
+    <string name="words_before_error">النص المنطوق محجوز بالفعل !</string>
+    <string name="words_before_title">النص المنطوق :</string>
+    <string name="words_after_title">النص البديل :</string>
+    <string name="words_before_title_row">النص المنطوق</string>
+    <string name="words_after_title_row">النص البديل</string>
+    <string name="confirm">تأكيد</string>
+    <string name="empty">يوجد حقل فارغ !</string>
+    <string name="edittext_empty">لا يوجد محتوى !</string>
+    <string name="add_word_text">إضافة نص +</string>
+    <string name="auto_stt_delay_title">مهلة التوقف للتحدث بشكل متتالي</string>
+    <string name="auto_stt_delay_desc">مدة الاستراحة فى التحدث ما بين كل نص وآخر بالثواني.</string>
+    <string name="reserved_words_desc">إيقاف او تفعيل النصوص المحجوزة.</string>
+    <string name="delete">X</string>
+    <string name="tts_text_hint">لا يوجد نص !</string>
+    <string name="no_files"><![CDATA[لا يوجد ملفات !]]></string>
+    <string name="no_reserved_words"><![CDATA[لا يوجد نصوص محجوزة !]]></string>
+    <string name="continuously_speaking" >التحدث بشكل متتالي</string>
+    <string name="edit_hint" >يُمكنك التعديل على النص هنا ..</string>
+    <string name="hint"><![CDATA[اضغط للتحدث وسيظهر النص هنا ..]]></string>
+    <string name="tts_speed_title" >سرعة النطق</string>
+    <string name="tts_speed_desc">سرعة نطق التطبيق للنص المكتوب.</string>
+    <string name="desc" >Image</string>
+    <string name="language" >Language</string>
+    <string name="reset" >إعادة ضبط</string>
+    <string name="configure" >اللغة والخط</string>
+    <string name="reset_desc" >إعادة ضبط إعدادات التطبيق للوضع الإفتراضي.</string>
+    <string name="video" >عرض توضيحي</string>
+    <string name="video_desc" >فيديو يشرح آلية عمل التطبيق، ويوضح طريقة استخدامه.</string>
+    <string name="watch_now" >شاهد الآن</string>
+    <string name="watch_later" >لاحقاً</string>
+    <string name="welcome_text" >لمشاهدة فيديو توضيحي لكيفية استخدام التطبيق اضغط \"شاهد الآن\"، او اضغط \"لاحقاً\" للمتابعة. \n\nيمكنك مشاهدة العرض التوضيحي لاحقاً من الإعدادات.</string>
+    <string name="error_1" >لن يعمل التطبيق الا بعد السماح له بإجراء تسجيل الصوت من اجل تحويله الى نصوص</string>
+    <string name="word_before_note"><![CDATA[النص الذى سيتم تحويله لـ"النص البديل" عند النطق به]]></string>
+    <string name="word_after_note"><![CDATA[النص الذى سيتم كتابته عند النطق بـ"النص المنطوق"]]></string>
+    <string name="error_2" >لن يمكنك حفظ الملفات على جهازك الا بعد السماح له بالإذن السابق</string>
+    <string name="internet" >لا يوجد اتصال بالانترنت .. برجاء الاتصال بالانترنت ليعمل التطبيق !</string>
+    <string name="description_title" >الشرح</string>
+    <string name="error_no_default_recognizer_dialog">لم يتم تثبيت أداة التعرف على الكلام أو عدم تعيين أداة التعرف الإفتراضية، الرجاء تثبيت تطبيق Google الرسمي وتمكينه .. اضغط استمرار لتحويلك للتطبيق الرسمي على المتجر ثم قم بتثبيته، ثم تفعيله</string>
+    <string name="error_no_default_recognizer">لم يتم تثبيت أداة التعرف على الكلام أو عدم تعيين أداة التعرف الإفتراضية، الرجاء تثبيت تطبيق Google الرسمي وتفعيله</string>
+
+    <!-- ______________________________Fonts______________________________________ -->
+
+    <string name="roboto_name" >Roboto (Regular)</string>
+    <string name="roboto_code" >rob_reg.ttf</string>
+    <string name="noto_sans_name" >NotoSans (Regular)</string>
+    <string name="noto_sans_code" >noto_sans_reg.ttf</string>
+    <string name="open_sans_name" >OpenSans (Regular)</string>
+    <string name="open_sans_code" >open_sans_reg.ttf</string>
+    <string name="playfair_display_name" >PlayfairDisplay (Regular)</string>
+    <string name="playfair_display_code" >play_dis_reg.ttf</string>
+    <string name="montserrat_name" >Montserrat(Regular)</string>
+    <string name="montserrat_code" >mont_reg.ttf</string>
+    <string name="hamah_name" >Hamah Sahet AlAssi</string>
+    <string name="hamah_code" >hamah.ttf</string>
+    <string name="gess_name" >GE SS Two Light</string>
+    <string name="gess_code" >gess.ttf</string>
+    <string name="hayah_name" >Hayah</string>
+    <string name="hayah_code" >hayah.ttf</string>
+    <string name="hacen_name" >Hacen Tunisia</string>
+    <string name="hacen_code" >hacen.ttf</string>
+    <string name="alhor_name" >AlHor</string>
+    <string name="alhor_code" >alhor.ttf</string>
+    <string name="tradi_name" >Traditional Arabic</string>
+    <string name="tradi_code" >tradi.ttf</string>
+    <string name="arial_name" >Arial</string>
+    <string name="arial_code" >arial.ttf</string>
+
+    <!-- ______________________________Languages______________________________________ -->
+
+    <string name="afrikaans_south_africa_name" >Afrikaans (South Africa)</string>
+    <string name="afrikaans_south_africa_code" >af-ZA</string>
+
+    <string name="amharic_ethiopia_name" >Amharic (Ethiopia)</string>
+    <string name="amharic_ethiopia_code" >am-ET</string>
+
+    <string name="armenian_armenia_name" >Armenian (Armenia)</string>
+    <string name="armenian_armenia_code" >hy-AM</string>
+
+    <string name="azerbaijani_azerbaijan_name" >Azerbaijani (Azerbaijan)</string>
+    <string name="azerbaijani_azerbaijan_code" >az-AZ</string>
+
+    <string name="indonesian_indonesia_name" >Indonesian (Indonesia)</string>
+    <string name="indonesian_indonesia_code" >id-ID</string>
+
+    <string name="malay_malaysia_name" >Malay (Malaysia)</string>
+    <string name="malay_malaysia_code" >ms-MY</string>
+
+    <string name="bengali_bangladesh_name" >Bengali (Bangladesh)</string>
+    <string name="bengali_bangladesh_code" >bn-BD</string>
+
+    <string name="bengali_india_name" >Bengali (India)</string>
+    <string name="bengali_india_code" >bn-IN</string>
+
+    <string name="catalan_spain_name" >Catalan (Spain)</string>
+    <string name="catalan_spain_code" >ca-ES</string>
+
+    <string name="czech_czech_republic_name" >Czech (Czech Republic)</string>
+    <string name="czech_czech_republic_code" >cs-CZ</string>
+
+    <string name="danish_denmark_name" >Danish (Denmark)</string>
+    <string name="danish_denmark_code" >da-DK</string>
+
+    <string name="german_germany_name" >German (Germany)</string>
+    <string name="german_germany_code" >de-DE</string>
+
+    <string name="english_australia_name" >English (Australia)</string>
+    <string name="english_australia_code" >en-AU</string>
+
+    <string name="english_canada_name" >English (Canada)</string>
+    <string name="english_canada_code" >en-CA</string>
+
+    <string name="english_ghana_name" >English (Ghana)</string>
+    <string name="english_ghana_code" >en-GH</string>
+
+    <string name="english_united_kingdom_name" >English (United Kingdom)</string>
+    <string name="english_united_kingdom_code" >en-GB</string>
+
+    <string name="english_india_name" >English (India)</string>
+    <string name="english_india_code" >en-IN</string>
+
+    <string name="english_ireland_name" >English (Ireland)</string>
+    <string name="english_ireland_code" >en-IE	</string>
+
+    <string name="english_kenya_name" >English (Kenya)</string>
+    <string name="english_kenya_code" >en-KE</string>
+
+    <string name="english_new_zealand_name" >English (New Zealand)</string>
+    <string name="english_new_zealand_code" >en-NZ</string>
+
+    <string name="english_nigeria_name" >English (Nigeria)</string>
+    <string name="english_nigeria_code" >en-NG</string>
+
+    <string name="english_philippines_name" >English (Philippines)</string>
+    <string name="english_philippines_code" >en-PH</string>
+
+    <string name="english_singapore_name" >English (Singapore)</string>
+    <string name="english_singapore_code" >en-SG</string>
+
+    <string name="english_south_africa_name" >English (South Africa)</string>
+    <string name="english_south_africa_code" >en-ZA</string>
+
+    <string name="english_tanzania_name" >English (Tanzania)</string>
+    <string name="english_tanzania_code" >en-TZ</string>
+
+    <string name="english_united_states_name" >English (United States)</string>
+    <string name="english_united_states_code" >en-US</string>
+
+    <string name="spanish_argentina_name" >Spanish (Argentina)</string>
+    <string name="spanish_argentina_code" >es-AR</string>
+
+    <string name="spanish_bolivia_name" >Spanish (Bolivia)</string>
+    <string name="spanish_bolivia_code" >es-BO</string>
+
+    <string name="spanish_chile_name" >Spanish (Chile)</string>
+    <string name="spanish_chile_code" >es-CL</string>
+
+    <string name="spanish_colombia_name" >Spanish (Colombia)</string>
+    <string name="spanish_colombia_code" >es-CO</string>
+
+    <string name="spanish_costa_rica_name" >Spanish (Costa Rica)</string>
+    <string name="spanish_costa_rica_code" >es-CR</string>
+
+    <string name="spanish_ecuador_name" >Spanish (Ecuador)</string>
+    <string name="spanish_ecuador_code" >es-EC</string>
+
+    <string name="spanish_el_salvador_name" >Spanish (El Salvador)</string>
+    <string name="spanish_el_salvador_code" >es-SV</string>
+
+    <string name="spanish_spain_name" >Spanish (Spain)</string>
+    <string name="spanish_spain_code" >es-ES</string>
+
+    <string name="spanish_united_states_name" >Spanish (United States)</string>
+    <string name="spanish_united_states_code" >es-US</string>
+
+    <string name="spanish_guatemala_name" >Spanish (Guatemala)</string>
+    <string name="spanish_guatemala_code" >es-GT</string>
+
+    <string name="spanish_honduras_name" >Spanish (Honduras)</string>
+    <string name="spanish_honduras_code" >es-HN</string>
+
+    <string name="spanish_mexico_name" >Spanish (Mexico)</string>
+    <string name="spanish_mexico_code" >es-MX</string>
+
+    <string name="spanish_nicaragua_name" >Spanish (Nicaragua)</string>
+    <string name="spanish_nicaragua_code" >es-NI</string>
+
+    <string name="spanish_panama_name" >Spanish (Panama)</string>
+    <string name="spanish_panama_code" >es-PA</string>
+
+    <string name="spanish_paraguay_name" >Spanish (Paraguay)</string>
+    <string name="spanish_paraguay_code" >es-PY</string>
+
+    <string name="spanish_peru_name" >Spanish (Peru)</string>
+    <string name="spanish_peru_code" >es-PE</string>
+
+    <string name="spanish_puerto_rico_name" >Spanish (Puerto Rico)</string>
+    <string name="spanish_puerto_rico_code" >es-PR</string>
+
+    <string name="spanish_dominican_republic_name" >Spanish (Dominican Republic)</string>
+    <string name="spanish_dominican_republic_code" >es-DO</string>
+
+    <string name="spanish_uruguay_name" >Spanish (Uruguay)</string>
+    <string name="spanish_uruguay_code" >es-UY</string>
+
+    <string name="spanish_venezuela_name" >Spanish (Venezuela)</string>
+    <string name="spanish_venezuela_code" >es-VE</string>
+
+    <string name="basque_spain_name" >Basque (Spain)</string>
+    <string name="basque_spain_code" >eu-ES</string>
+
+    <string name="filipino_philippines_name" >Filipino (Philippines)</string>
+    <string name="filipino_philippines_code" >fil-PH</string>
+
+    <string name="french_canada_name" >French (Canada)</string>
+    <string name="french_canada_code" >fr-CA</string>
+
+    <string name="french_france_name" >French (France)</string>
+    <string name="french_france_code" >fr-FR</string>
+
+    <string name="galician_spain_name" >Galician (Spain)</string>
+    <string name="galician_spain_code" >gl-ES</string>
+
+    <string name="georgian_georgia_name" >Georgian (Georgia)</string>
+    <string name="georgian_georgia_code" >ka-GE</string>
+
+    <string name="gujarati_india_name" >Gujarati (India)</string>
+    <string name="gujarati_india_code" >gu-IN</string>
+
+    <string name="croatian_croatia_name" >Croatian (Croatia)</string>
+    <string name="croatian_croatia_code" >hr-HR</string>
+
+    <string name="zulu_south_africa_name" >Zulu (South Africa)</string>
+    <string name="zulu_south_africa_code" >zu-ZA</string>
+
+    <string name="icelandic_iceland_name" >Icelandic (Iceland)</string>
+    <string name="icelandic_iceland_code" >is-IS</string>
+
+    <string name="italian_italy_name" >Italian (Italy)</string>
+    <string name="italian_italy_code" >it-IT</string>
+
+    <string name="javanese_indonesia_name" >Javanese (Indonesia)</string>
+    <string name="javanese_indonesia_code" >jv-ID</string>
+
+    <string name="kannada_india_name" >Kannada (India)</string>
+    <string name="kannada_india_code" >kn-IN</string>
+
+    <string name="khmer_cambodia_name" >Khmer (Cambodia)</string>
+    <string name="khmer_cambodia_code" >km-KH</string>
+
+    <string name="lao_laos_name" >Lao (Laos)</string>
+    <string name="lao_laos_code" >lo-LA</string>
+
+    <string name="latvian_latvia_name" >Latvian (Latvia)</string>
+    <string name="latvian_latvia_code" >lv-LV</string>
+
+    <string name="lithuanian_lithuania_name" >Lithuanian (Lithuania)</string>
+    <string name="lithuanian_lithuania_code" >lt-LT</string>
+
+    <string name="hungarian_hungary_name" >Hungarian (Hungary)</string>
+    <string name="hungarian_hungary_code" >hu-HU</string>
+
+    <string name="malayalam_india_name" >Malayalam (India)</string>
+    <string name="malayalam_india_code" >ml-IN</string>
+
+    <string name="marathi_india_name" >Marathi (India)</string>
+    <string name="marathi_india_code" >mr-IN</string>
+
+    <string name="dutch_netherlands_name" >Dutch (Netherlands)</string>
+    <string name="dutch_netherlands_code" >nl-NL</string>
+
+    <string name="nepali_nepal_name" >Nepali (Nepal)</string>
+    <string name="nepali_nepal_code" >ne-NP</string>
+
+    <string name="norwegian_bokmål_norway_name" >Norwegian Bokmål (Norway)</string>
+    <string name="norwegian_bokmål_norway_code" >nb-NO</string>
+
+    <string name="polish_poland_name" >Polish (Poland)</string>
+    <string name="polish_poland_code" >pl-PL</string>
+
+    <string name="portuguese_brazil_name" >Portuguese (Brazil)</string>
+    <string name="portuguese_brazil_code" >pt-BR</string>
+
+    <string name="portuguese_portugal_name" >Portuguese (Portugal)</string>
+    <string name="portuguese_portugal_code" >pt-PT</string>
+
+    <string name="romanian_romania_name" >Romanian (Romania)</string>
+    <string name="romanian_romania_code" >ro-RO</string>
+
+    <string name="sinhala_sri_lanka_name" >Sinhala (Sri Lanka)</string>
+    <string name="sinhala_sri_lanka_code" >si-LK</string>
+
+    <string name="slovak_slovakia_name" >Slovak (Slovakia)</string>
+    <string name="slovak_slovakia_code" >sk-SK</string>
+
+    <string name="slovenian_slovenia_name" >Slovenian (Slovenia)</string>
+    <string name="slovenian_slovenia_code" >sl-SI</string>
+
+    <string name="sundanese_indonesia_name" >Sundanese (Indonesia)</string>
+    <string name="sundanese_indonesia_code" >su-ID</string>
+
+    <string name="swahili_tanzania_name" >Swahili (Tanzania)</string>
+    <string name="swahili_tanzania_code" >sw-TZ</string>
+
+    <string name="swahili_kenya_name" >Swahili (Kenya)</string>
+    <string name="swahili_kenya_code" >sw-KE</string>
+
+    <string name="finnish_finland_name" >Finnish (Finland)</string>
+    <string name="finnish_finland_code" >fi-FI	</string>
+
+    <string name="swedish_sweden_name" >Swedish (Sweden)</string>
+    <string name="swedish_sweden_code" >sv-SE</string>
+
+    <string name="tamil_india_name" >Tamil (India)</string>
+    <string name="tamil_india_code" >ta-IN	</string>
+
+    <string name="tamil_singapore_name" >Tamil (Singapore)</string>
+    <string name="tamil_singapore_code" >ta-SG</string>
+
+    <string name="tamil_sri_lanka_name" >Tamil (Sri Lanka)</string>
+    <string name="tamil_sri_lanka_code" >ta-LK</string>
+
+    <string name="tamil_malaysia_name" >Tamil (Malaysia)</string>
+    <string name="tamil_malaysia_code" >ta-MY</string>
+
+    <string name="telugu_india_name" >Telugu (India)</string>
+    <string name="telugu_india_code" >te-IN</string>
+
+    <string name="vietnamese_vietnam_name" >Vietnamese (Vietnam)</string>
+    <string name="vietnamese_vietnam_code" >vi-VN</string>
+
+    <string name="turkish_turkey_name" >Turkish (Turkey)</string>
+    <string name="turkish_turkey_code" >tr-TR</string>
+
+    <string name="urdu_pakistan_name" >Urdu (Pakistan)</string>
+    <string name="urdu_pakistan_code" >ur-PK</string>
+
+    <string name="urdu_india_name" >Urdu (India)</string>
+    <string name="urdu_india_code" >ur-IN</string>
+
+    <string name="greek_greece_name" >Greek (Greece)</string>
+    <string name="greek_greece_code" >el-GR</string>
+
+    <string name="bulgarian_bulgaria_name" >Bulgarian (Bulgaria)</string>
+    <string name="bulgarian_bulgaria_code" >bg-BG</string>
+
+    <string name="russian_russia_name" >Russian (Russia)</string>
+    <string name="russian_russia_code" >ru-RU</string>
+
+    <string name="serbian_serbia_name" >Serbian (Serbia)</string>
+    <string name="serbian_serbia_code" >sr-RS</string>
+
+    <string name="ukrainian_ukraine_name" >Ukrainian (Ukraine)</string>
+    <string name="ukrainian_ukraine_code" >uk-UA</string>
+
+    <string name="hebrew_palestine_name" >Hebrew (Palestine)</string>
+    <string name="hebrew_palestine_code" >he-IL</string>
+
+    <string name="arabic_jordan_name" >Arabic (Jordan)</string>
+    <string name="arabic_jordan_code" >ar-JO</string>
+
+    <string name="arabic_united_arab_emirates_name" >Arabic (United Arab Emirates)</string>
+    <string name="arabic_united_arab_emirates_code" >ar-AE</string>
+
+    <string name="arabic_bahrain_name" >Arabic (Bahrain)</string>
+    <string name="arabic_bahrain_code" >ar-BH</string>
+
+    <string name="arabic_algeria_name" >Arabic (Algeria)</string>
+    <string name="arabic_algeria_code" >ar-DZ</string>
+
+    <string name="arabic_saudi_arabia_name" >Arabic (Saudi Arabia)</string>
+    <string name="arabic_saudi_arabia_code" >ar-SA</string>
+
+    <string name="arabic_iraq_name" >Arabic (Iraq)</string>
+    <string name="arabic_iraq_code" >ar-IQ</string>
+
+    <string name="arabic_kuwait_name" >Arabic (Kuwait)</string>
+    <string name="arabic_kuwait_code" >ar-KW</string>
+
+    <string name="arabic_morocco_name" >Arabic (Morocco)</string>
+    <string name="arabic_morocco_code" >ar-MA</string>
+
+    <string name="arabic_tunisia_name" >Arabic (Tunisia)</string>
+    <string name="arabic_tunisia_code" >ar-TN</string>
+
+    <string name="arabic_oman_name" >Arabic (Oman)</string>
+    <string name="arabic_oman_code" >ar-OM</string>
+
+    <string name="arabic_palestine_name" >Arabic (Palestine)</string>
+    <string name="arabic_palestine_code" >ar-PS</string>
+
+    <string name="arabic_qatar_name" >Arabic (Qatar)</string>
+    <string name="arabic_qatar_code" >ar-QA</string>
+
+    <string name="arabic_lebanon_name" >Arabic (Lebanon)</string>
+    <string name="arabic_lebanon_code" >ar-LB</string>
+
+    <string name="arabic_egypt_name" >Arabic (Egypt)</string>
+    <string name="arabic_egypt_code" >ar-EG</string>
+
+    <string name="persian_iran_name" >Persian (Iran)</string>
+    <string name="persian_iran_code" >fa-IR</string>
+
+    <string name="hindi_india_name" >Hindi (India)</string>
+    <string name="hindi_india_code" >hi-IN</string>
+
+    <string name="thai_thailand_name" >Thai (Thailand)</string>
+    <string name="thai_thailand_code" >th-TH</string>
+
+    <string name="korean_south_korea_name" >Korean (South Korea)</string>
+    <string name="korean_south_korea_code" >ko-KR</string>
+
+    <string name="chinese_mandarin_traditional_taiwan_name" >Chinese, Mandarin (Traditional, Taiwan)</string>
+    <string name="chinese_mandarin_traditional_taiwan_code" >zh-TW</string>
+
+    <string name="chinese_cantonese_traditional_hong_kong_name" >Chinese, Cantonese (Traditional, Hong Kong)</string>
+    <string name="chinese_cantonese_traditional_hong_kong_code" >yue-Hant-HK</string>
+
+    <string name="japanese_japan_name" >Japanese (Japan)</string>
+    <string name="japanese_japan_code" >ja-JP</string>
+
+    <string name="chinese_mandarin_simplified_hong_kong_name" >Chinese, Mandarin (Simplified, Hong Kong)</string>
+    <string name="chinese_mandarin_simplified_hong_kong_code" >zh-HK</string>
+
+    <string name="chinese_mandarin_simplified_china_name" >Chinese, Mandarin (Simplified, China)</string>
+    <string name="chinese_mandarin_simplified_china_code" >zh</string>
+
+</resources>

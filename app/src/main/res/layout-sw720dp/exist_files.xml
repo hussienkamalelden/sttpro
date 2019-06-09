@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1f1f">
+    <RelativeLayout
+        android:id="@+id/exist_files_title"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#3a3a3a"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/title_icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/files_icon"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/desc"/>
+        <TextView
+            android:id="@+id/exist_files_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/title_icon"
+            android:text="@string/exist_files_title_text"
+            android:layout_centerVertical="true"
+            android:textSize="50sp"
+            android:textColor="#dcdada" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/counter_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="-50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/exist_files_title">
+        <TextView
+            android:id="@+id/counter_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/counter_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="40sp"
+            android:textColor="#b7b6b6" />
+        <TextView
+            android:id="@+id/counter_numb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_toLeftOf="@+id/counter_text"
+            android:layout_marginRight="5dp"
+            android:textSize="44sp"
+            android:textColor="#02a1be" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/Container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/counter_box"
+        android:layout_marginTop="20dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="10dp"
+            android:scrollbars="none"
+            android:divider="@android:color/transparent">
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+</RelativeLayout>

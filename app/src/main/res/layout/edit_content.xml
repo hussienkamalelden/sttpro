@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1f1f">
+    <RelativeLayout
+        android:id="@+id/TopTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3a3a3a">
+        <ImageView
+            android:id="@+id/done_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/done_sign"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/desc"/>
+    </RelativeLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nested_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/main_edittext_bg"
+        android:layerType="software"
+        android:layout_below="@+id/TopTitle"
+        android:layout_marginBottom="20dp">
+        <EditText
+            android:id="@+id/edit_content_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_hint"
+            android:padding="10dp"
+            android:textColor="#cfcdcd"
+            android:textSize="30sp"
+            android:scrollbars = "none"
+            android:background="@null"/>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
